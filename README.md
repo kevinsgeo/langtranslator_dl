@@ -138,19 +138,6 @@ translation = result.json()["translation"]
 print(translation)
 ```
 
-## 🏗️ Project Structure
-
-```
-langtranslator_dl/
-├── api_main.py          # FastAPI application and routes
-├── tasks.py             # Translation logic and background tasks
-├── models.py            # Database models and configuration
-├── requirements.txt     # Python dependencies
-├── dockerfile          # Docker configuration
-├── translations.db     # SQLite database
-└── README.md          # This file
-```
-
 ## 🔍 Technical Details
 
 ### Architecture
